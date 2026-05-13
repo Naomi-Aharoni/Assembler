@@ -32,7 +32,4 @@ The project uses a flat directory structure, dividing logic into modular compone
 
 ## 🛠️ Build Instructions
 
-The project includes a `makefile` for easy compilation using gcc. To build the project, simply run:
-
-```bash
-make
+The project includes a makefile for easy compilation using gcc. To build the project, simply run: make
