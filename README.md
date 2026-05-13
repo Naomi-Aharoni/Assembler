@@ -21,18 +21,18 @@ The project uses a flat directory structure, dividing logic into modular compone
 
 | File | Description |
 |------|-------------|
-| `assembler.c` | Main application entry point. Orchestrates the 3 phases. |
-| `preAssembler.c/h` | Handles the macro expansion phase. |
-| `firstPass.c/h` | First pass logic: symbol table construction & initial encoding. |
-| `secondPass.c/h` | Second pass logic: resolving label addresses. |
-| `table.c/h` | Linked-list implementations for Symbols and Externals. |
-| `utils.c/h` | String manipulation, parsing, and validation helpers. |
-| `outputFiles.c/h` | Generates the `.ob`, `.ent`, and `.ext` files. |
-| `globals.h` | System-wide constants, bit-masks, and structs. |
+| assembler.c | Main application entry point. Orchestrates the 3 phases. |
+| preAssembler.c/h | Handles the macro expansion phase. |
+| firstPass.c/h | First pass logic: symbol table construction & initial encoding. |
+| secondPass.c/h | Second pass logic: resolving label addresses. |
+| table.c/h | Linked-list implementations for Symbols and Externals. |
+| utils.c/h | String manipulation, parsing, and validation helpers. |
+| outputFiles.c/h | Generates the .ob, .ent, and .ext files. |
+| globals.h | System-wide constants, bit-masks, and structs. |
 
 ## 🛠️ Build Instructions
 
-The project includes a `makefile` for easy compilation using `gcc`. To build the project, simply run:
+The project includes a `makefile` for easy compilation using gcc. To build the project, simply run:
 
 ```bash
 make
