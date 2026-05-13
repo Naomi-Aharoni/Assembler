@@ -103,7 +103,7 @@ int is_extern(char *string)
 
 /*
  * It searches for a command name in the opcodes table.
- * The table has all the valid commands and ends with a NULL name.
+ * The table has all the valid commands and ends with עעa NULL name.
  * this is work like:
  * -Create a static array of structs with all commands details.
  * -Run with a while loop on the table.
