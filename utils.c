@@ -1,7 +1,7 @@
 #include "utils.h"
 
 /*
- * It checks if the line has only spaces or is completely empty.
+ * It checks if the line has only spaces or is completely emptyח.
  * The input line is a valid string.
  * this is work like:
  * -Run on the string with a pointer.
