@@ -3,7 +3,7 @@
 
 #include "globals.h"
 
-/*
+/*יח
  * Check if the line is empty or has only spaces.
  * Input: line- string of the line.
  * Output: Returns 1 if empty and 0 if not.
