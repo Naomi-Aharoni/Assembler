@@ -1,17 +1,17 @@
 # Assembler
 
-A custom two-pass assembler written in standard C (ANSI-C). This project simulates an assembler for a fictional 12-bit machine language. It reads assembly source files (`.as`), parses the instructions, expands macros, and translates the code into machine code output files.
+A custom two-pass assembler written in standard C (ANSI-C). This project simulates an assembler for a fictional 12-bit machine language. It reads assembly source files (.as), parses the instructions, expands macros, and translates the code into machine code output files.
 
-This project was developed as part of the "Systems Programming Lab" (20465) course at the Open University of Israel.
+This project was developed as part of the course "Systems Programming Lab".
 
 ## 🚀 Features
 
-* **Macro Expansion (Pre-Assembler):** Automatically identifies and expands macros, outputting a clean `.am` file.
+* **Macro Expansion (Pre-Assembler):** Automatically identifies and expands macros, outputting a clean .am file.
 * **Two-Pass Architecture:**
     * **First Pass:** Builds a robust Symbol Table, counts Instruction Counter (IC) and Data Counter (DC), and encodes primary instruction words.
     * **Second Pass:** Resolves forward references and completes the binary encoding for labels.
 * **12-bit Memory Words:** Implements bitwise operations to correctly construct 12-bit machine words, including A.R.E (Absolute, Relocatable, External) encoding.
-* **Addressing Modes:** Supports Immediate (`#`), Direct (Labels), Relative (`%`), and Register (`r0`-`r7`) addressing modes.
+* **Addressing Modes:** Supports Immediate (#), Direct (Labels), Relative (%), and Register (r0-r7) addressing modes.
 * **Error Handling:** Extensive validation for syntax errors, undefined symbols, illegal addressing modes, and memory overflow (MAX_RAM = 4096).
 * **Dynamic Memory Management:** Uses efficient Linked Lists for the Symbol Table, Externals List, and Macro caching.
 
